@@ -1,10 +1,12 @@
-import React from "react";
-import Footer from "./Footer";
+import React from 'react';
+import Footer from './Footer';
+import Button from 'react-bootstrap/Button';
 
 const Join = () => {
     return (
         <>"Join" 
-        <Footer/>   
+         <Button>Jojo</Button>
+         <Footer/>   
         </>
     );
 }

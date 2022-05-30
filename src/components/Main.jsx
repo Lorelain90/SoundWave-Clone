@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
+import Button from 'react-bootstrap/Button';
 import Discover from "./Discover";
-import Images from "./imagenes"
 
 const Main = () => {
     return (
         <>"Main"
-        <img src={Girl}/>
         <h1>Feel The Music</h1> 
         <p>Stream over 20 thousand song with one</p>
         <p>click</p>
         <Button>Join Now</Button>
+        <Discover/> 
         </>
         );
 }

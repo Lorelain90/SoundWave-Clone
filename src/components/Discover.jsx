@@ -1,14 +1,15 @@
-import React from "react";
-import Images from "./imagenes"
-import Footer from "./Footer";
+import React from 'react';
+import Footer from './Footer';
+import Button from 'react-bootstrap/Button';
 
 const Discover = () => {
     return (
     <>
     "Discover"
-            <img src={Albums}/>
-            <img src={Covers}/>
-    <Footer/>    </>);
+    <Button>Prueba</Button>       
+    <Footer/>    
+    </>
+    );
 }
  
 export default Discover;

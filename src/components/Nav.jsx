@@ -1,14 +1,16 @@
-import React from "react";
-import Images from "./imagenes"
+import React from 'react';
+import Button from 'react-bootstrap/Button';
+import Discover from './Discover';
+import Join from './Join';
+
 
 const Nav = () => {
     return (
-    <>
-        "Nav"
-        <img src={'Logo1'}/>;
+    <> "Nav"
         Soundwave
         <Discover/>
         <Join/>
+        <Button>Join</Button>
     </>
     );
 }
