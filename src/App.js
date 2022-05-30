@@ -5,18 +5,20 @@ import Main from './components/Main';
 import Discover from './components/Discover';
 import Join from './components/Join';
 
+
 function App() {
   return (
-   <>
+  <>
     <Button>Prueba</Button>
-    <br></br>
     <Nav/> 
     <Main/>
     <Discover/> 
     <Join/>
-   </>
+  </>
   
   );
 }
 
 export default App;
+
+// a href='#Discover' className="img logo.png";
