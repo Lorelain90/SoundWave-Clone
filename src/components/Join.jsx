@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
 const Join = () => {
     return (
         <>"Join" 
-         <Button>Jojo</Button>
+         <Button>Join Now</Button>
          <Footer/>   
         </>
     );

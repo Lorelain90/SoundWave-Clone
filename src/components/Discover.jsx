@@ -1,13 +1,23 @@
 import React from 'react';
 import Footer from './Footer';
-import Button from 'react-bootstrap/Button';
+import Albums from './images/albums.svg';
+import Covers from './images/covers.jpg';
+import Micro from './images/microphone.svg';
+import More from './images/more.svg';
 
 const Discover = () => {
     return (
-    <>
-    "Discover"
-    <Button>Prueba</Button>       
-    <Footer/>    
+    <>  "Discover"
+    
+            Discover new music
+                <img src={Micro} alt="Micro"/>; 
+                <img src={Albums} alt="Albums"/>; 
+                <img src={More} alt="More"/>;
+
+                <img src={Covers} alt="Covers"/>; 
+
+
+            <Footer a href='#Footer'/>    
     </>
     );
 }
