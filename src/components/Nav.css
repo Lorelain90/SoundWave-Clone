@@ -1,33 +1,31 @@
 .nav {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     background-color: #202027;
     color: white;
-    width: 100%;
-    align-items: center;
     font-size: 1.2rem;
    
 }
 .logo {
-    display: flex;
     height: 80px;
     width: 50%;
+    display: flex;
     align-items: center;
-
-    
+    justify-content: left;
+    margin-left: 10px;
 }
 
 .logo > img {
-    
-    padding: 0 10px;
+    padding: 0 20px;
     margin-right: 0px;
 }
 
 .barra {
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    
+    justify-content: right;
+    margin-left: 550px;
 }
 
 .barra > a {
