@@ -15,8 +15,8 @@ const Discover = () => {
                 <img src={More} alt="More"/>;
 
                 <img src={Covers} alt="Covers"/>; 
-
-
+                <p>By joining you can benefit by listening to the latest albums released. </p>
+                
             <Footer a href='#Footer'/>    
     </>
     );

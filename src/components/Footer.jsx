@@ -8,10 +8,11 @@ import Contact from './Contact';
 const Footer = () => {
     return (
     <>"Footer"
-     <About a href='#About'/>
-     <Contact a href='#Contact'/>
-     <img src={Facebook} alt="Facebook"></img> 
-     <img src={Twitter} alt="Twitter"></img>
+        <About a href='#About'/>
+        <Contact a href='#Contact'/>
+
+        <img src={Facebook} alt="Facebook"></img> 
+        <img src={Twitter} alt="Twitter"></img>
 
 
 
