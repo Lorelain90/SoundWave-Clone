@@ -1,23 +1,22 @@
-*{
+* {
   font-family: Poppins;
   margin: 0;
+  color: white;
 }
 
 .App {
- 
-  background-color: #2F303A;
   padding: 40px;
 }
 
 .cercle1 {
-  border-bottom-left-radius: 1000px #bc3a801a
-  ;
+  border-bottom-left-radius: 1000px #bc3a801a;
 }
 .cercle2 {
   border-bottom: #3457b21a;
 }
 .cercle3 {
-  border-bottom-right-radius: height 200px, width 200px, border-radius 100% 0 0, #3457b21a;
+  border-bottom-right-radius: height 200px, width 200px, border-radius 100% 0 0,
+    #3457b21a;
 }
 
 .JoinNow {
@@ -29,7 +28,7 @@
   padding: 1px;
   min-width: 2px;
 
-  background: #1762A7;
+  background: #1762a7;
 
   transition: all 0.1s ease-in;
 }
@@ -43,5 +42,5 @@ footer {
   float: left;
   width: 100%;
   height: 50px;
-  background-color: pink;
+  background-color: #202027;
 }

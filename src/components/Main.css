@@ -1,7 +1,5 @@
-
 .main {
   width: 100%;
-  display: inline-block;
   background-color: #202027;
   color: white;
   font-size: 1.2rem;
@@ -11,9 +9,11 @@
     letter-spacing: 3px;
   }
 
-  Girl {
+  .girl {
     display: flex;
     justify-content: center;
-    height: 50px;
-    width: 30%;
+    align-content: center;
+    height: 30%;
   }
+
+  

@@ -1,14 +1,19 @@
 import React from "react";
 import './Nav.css';
 import Logo1 from './images/logo.png';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 const Nav = () => {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+  render(){
   return (
     <div className="nav">
       <div className="logo">
-        <img src={Logo1} alt="Soundwave"></img>
-        <h1>Soundwave</h1>
+        <img className="Soundwave" src={Logo1} alt="Soundwave" ></img>
+        <h3>Soundwave</h3>
       </div>
       <div className="barra">
         <a href="#Discover">Discover</a>
@@ -17,5 +22,6 @@ const Nav = () => {
     </div>
   );
 };
+}
 
 export default Nav;
