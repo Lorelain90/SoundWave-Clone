@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 
 const Join = () => {
     return (
-        <>"Join" 
+        <>
+        <h1> Seccion Join</h1>
         <Button>Sign Up</Button>
         
         <Footer/>   

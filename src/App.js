@@ -11,10 +11,11 @@ import Join from './components/Join'
     
     <>
         
-        <Nav a href='#Nav'/> 
-        <Main a href='#Main'/>
-        <Discover a href='#Discover'/> 
-        <Join a href='#Join'/>
+        <Nav/> 
+        <Main/>
+        <Discover/>
+        <Join/>
+        
         
 
     </>

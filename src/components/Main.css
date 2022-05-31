@@ -3,6 +3,11 @@ main {
     font-family: "Poppins", sans-serif;
     background-color: #2F303A;
     padding: 40px;
+
+  }
+  
+  h1 {
+    letter-spacing: 3px;
   }
 
   .Girl {

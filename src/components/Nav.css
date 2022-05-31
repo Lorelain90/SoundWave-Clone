@@ -1,0 +1,38 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #202027;
+    color: white;
+    width: 100%;
+    align-items: center;
+    font-size: 1.2rem;
+   
+}
+.logo {
+    display: flex;
+    height: 80px;
+    width: 50%;
+    align-items: center;
+
+    
+}
+
+.logo > img {
+    
+    padding: 0 10px;
+    margin-right: 0px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.barra > a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: white;
+
+} 
