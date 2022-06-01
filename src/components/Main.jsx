@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react';
+import './Main.css'
 import { Button } from 'react-bootstrap';
-import Girl from "./images/landing-page-girl.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import Girl from './images/landing-page-girl.png';
+//import { Link, animateScroll as scroll } from 'react-scroll';
 
 const Main = () => {
   return (
     <div className="main">
-      <div className="girl">
-        <img src={Girl} alt="Girl" />
-        <h1>Feel The Music</h1>
+        <div className='1'>
+        <img src={Girl} alt="Girl" className='girl'/></div>
+        <div className='2'><h1>Feel The Music</h1></div>
         <p>Stream over 20 thousand song with one</p>
         <p>click</p>
-      </div>
-
+    
       <Button a href="#Join">
         Join Now
       </Button>
