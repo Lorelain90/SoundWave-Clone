@@ -2,22 +2,10 @@
   font-family: Poppins;
   color: white;
   background-color: #202027;
-  
 }
 
 .App {
   padding: 40px;
-}
-
-.cercle1 {
-  border-bottom-left-radius: 1000px #bc3a801a;
-}
-.cercle2 {
-  border-bottom: #3457b21a;
-}
-.cercle3 {
-  border-bottom-right-radius: height 200px, width 200px, border-radius 100% 0 0,
-    #3457b21a;
 }
 
 .JoinNow {
@@ -25,12 +13,9 @@
   align-items: center;
   order: 1;
   align-self: flex-end;
-
   padding: 1px;
   min-width: 2px;
-
   background: #1762a7;
-
   transition: all 0.1s ease-in;
 }
 

@@ -1,11 +1,11 @@
-.nav {
+.barra {
   width: 100%;
   display: flex;
   align-items: center;
   background-color: #202027;
-  text-decoration: none;
   color: white;
   font-size: 1.2rem;
+  
 }
 .logo {
   height: 50px;
@@ -14,6 +14,7 @@
   align-items: center;
   justify-content: left;
   margin-left: 5px;
+  color: white;
 }
 
 .logo > img {
@@ -24,16 +25,17 @@
   display: flex;
   align-items: center;
   justify-content: left;
+  color: white;
 }
 
 .barra {
   display: flex;
+  color: white;
 }
 
 .barra > a {
   display: flex;
   padding: 0 50px;
-
   color: white;
   margin-right: 10px;
 }

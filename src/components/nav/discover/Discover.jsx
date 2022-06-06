@@ -18,7 +18,6 @@ const Discover = () => {
       <p>
         By joining you can benefit by listening to the latest albums released.{" "}
       </p>
-      <Footer a href="#Footer" />
     </>
   );
 };

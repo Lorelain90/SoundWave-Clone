@@ -7,7 +7,7 @@ import logo from "./logo.svg";
 const Nav = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar className='nav'>
         <Container>
           <Navbar.Brand href="#main">
             <img

@@ -1,4 +1,5 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Nav from "./components/nav/Nav";
 import Main from "./components/main/Main";
@@ -15,7 +16,6 @@ const App = () => {
       <Discover />
       <Footer />
       <Nav />
-      <Join />
       <Footer />
     </>
   );
